@@ -47,6 +47,7 @@
   width: 100%;
   background-color: #f2f2f2;
 }
+
 .theme {
   color: #74cfae;
   font-size: 90px;
@@ -216,6 +217,8 @@
 }
 .footer-inner {
   color: #fff;
-  margin-left: 900px;
   font-size: 12px;
+}
+.footer-inner p {
+  padding-left: 975px;
 }
