@@ -39,14 +39,16 @@
 
 .contact:hover {
   color: #333;
-  cursor: pointer;
+}
+.wraper {
+  padding-top: 62px;
 }
 .title {
   width: 100%;
   background-color: #f2f2f2;
 }
 .title-inner {
-  margin-top: 62px;
+
   padding-top: 250px;
   padding-bottom: 250px;
 }
@@ -109,13 +111,7 @@
   margin-left: 100px;
   margin-top: 80px;
 }
-.img-box-margin:nth-child(1){
-  margin-top: 0;
-}
-.img-box-margin:nth-child(2){
-  margin-top: 0;
-}
-.img-box-margin:nth-child(3){
+.img-box-margin:nth-child(-n+3){
   margin-top: 0;
 }
 .img-box-margin:nth-child(3n+1){
@@ -157,10 +153,10 @@
   margin-left: 90px;
   height: 15px;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 .latest-email:hover {
   color: #333;
-  cursor: pointer;
 }
 .skills {
   width: 100%;
@@ -216,7 +212,6 @@
   background-color: #fff;
   width: 185px;
   height: 100px;
-  cursor: pointer;
 }
 .footer {
   width: 100%;
