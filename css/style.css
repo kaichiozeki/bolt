@@ -3,17 +3,21 @@
   content: "";
   clear: both;
 }
+
 .base_font {
-  font-family: 'Raleway' , sans-serif;
+  font-family: 'Lato' , sans-serif;
 }
+
 .header {
   width: 100%;
   background-color: #fff;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 10;
+  z-index: 999;
+  padding: 15px 0;
 }
+
 .inner {
   width: 1100px;
   margin: 0 auto;
@@ -21,17 +25,14 @@
 
 .header-inner {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
-.fas {
-  padding: 15px;
-}
+
 .contact {
   text-align: center;
   font-size: 12px;
   color: #fff;
-  transition:	all 0.3s ease;
+  transition: all 0.3s ease;
   text-decoration: none;
   padding: 14px 12px;
   background-color: #74cfae;
@@ -40,52 +41,62 @@
 .contact:hover {
   color: #333;
 }
+
 .wraper {
   padding-top: 62px;
 }
+
 .title {
   width: 100%;
   background-color: #f2f2f2;
 }
-.title-inner {
 
+.title-inner {
   padding-top: 250px;
   padding-bottom: 250px;
 }
+
 .theme {
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
   text-align: center;
+  font-family: 'Raleway' , sans-serif;
 }
+
 .theme_text {
   font-size: 30px;
   color: #c0c0c0;
   text-align: center;
   margin-top: 20px;
 }
-.main_what{
-  height: 300px;
+
+.main_what {
   background-color: #74cfae;
 }
+
 .what-inner {
   display: flex;
   justify-content: center;
   padding-top: 50px;
 }
+
 .img-iphone {
   display: inline-block;
   width: 175px;
-  height: 250px;
 }
+
 .main_what-box {
   margin-left: 150px;
   text-align: center;
 }
+
 .main_what_title {
   color: #fff;
   font-size: 24px;
+  font-family: 'Raleway' , sans-serif;
 }
+
 .main_what-text {
   color: #fff;
   font-size: 20px;
@@ -93,111 +104,132 @@
   margin-top: 35px;
   line-height: 25px;
 }
+
 .latest {
   background-color: #f2f2f2;
   width: 100%;
 }
+
 .latest-inner {
   text-align: center;
   padding-top: 60px;
   padding-bottom: 70px;
 }
+
 .latest-title {
   color: #333;
   text-align: center;
   font-size: 24px;
+  font-family: 'Raleway' , sans-serif;
 }
+
 .img-box-margin {
   margin-left: 100px;
   margin-top: 80px;
 }
+
 .img-box-margin:nth-child(-n+3){
   margin-top: 0;
 }
+
 .img-box-margin:nth-child(3n+1){
   margin-left: 0;
 }
+
 .latest-img {
   display: flex;
   justify-content: center;
   margin-top: 40px;
   flex-wrap: wrap
 }
+
 .latest-img-box {
   transition:	all 0.3s ease;
   opacity: 0.7;
 }
-.img-siz {
-  width: 250px;
-  height: 250px;
-}
+
 .latest-img-box:hover {
   opacity: 1;
 }
+
 .latest-text {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   margin-top: 90px;
 }
+
 .latest-text-title {
   width: 500px;
   color: #333;
   line-height: 25px;
 }
+
 .latest-email {
   text-align: center;
   font-size: 12px;
   color: #fff;
-  background-color: #74cfae;
-  padding: 14px 20px;
   margin-left: 90px;
-  height: 15px;
   transition: all 0.3s ease;
   text-decoration: none;
+  padding: 14px 20px;
+  background-color: #74cfae;
 }
+
 .latest-email:hover {
   color: #333;
 }
+
 .skills {
   width: 100%;
   background-color: #4e4e4e;
 }
+
 .skills-inner {
   padding-top: 70px;
   padding-bottom: 100px;
 }
+
 .skills-title {
   font-size: 24px;
   color: #fff;
   text-align: center;
+  font-family: 'Raleway' , sans-serif;
 }
+
 .skills-flex {
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
+
 .skills-box {
   font-size: 16px;
   text-align: center;
   margin-left: 180px;
   color: #fff;
 }
+
 .skills-box:first-child {
   margin-left: 0;
 }
+
 .skills-text {
   margin-top: 10px;
 }
+
 .sns {
   width: 100%;
   background-color: #f2f2f2;
 }
+
 .sns-inner {
   display: flex;
   justify-content: center;
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
 .sns-box {
   width: 185px;
   height: 100px;
@@ -208,20 +240,23 @@
   color: #74cfae;
   text-decoration: none;
 }
+
 .sns-box:hover {
   background-color: #fff;
   width: 185px;
-  height: 100px;
 }
+
 .footer {
   width: 100%;
   background-color: #74cfae;
 }
+
 .footer-inner {
   padding-top: 20px;
   padding-bottom: 25px;
   text-align: end;
 }
+
 .footer-inner {
   color: #fff;
   font-size: 12px;
