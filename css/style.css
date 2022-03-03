@@ -262,35 +262,23 @@
   color: #fff;
   font-size: 12px;
 }
-@media screen and (min-width: 1200px) {
-  .contact {
-    display: block;
-  }
 
-  .menu-icon-sp {
-    display: none;
-  }
-
-  .menu-icon-sp span {
-    display: none;
-  }
+.contact {
+  display: block;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+.menu-icon-sp {
+  display: none;
+}
+
+.menu-icon-sp span {
+  display: none;
+}
+
+
+@media only screen and (max-width: 1199px) {
   .inner {
     width: 97%;
-  }
-
-  .contact {
-    display: block;
-  }
-
-  .menu-icon-sp {
-    display: none;
-  }
-
-  .menu-icon-sp span {
-    display: none;
   }
 
   .what-inner {
@@ -329,8 +317,8 @@
     margin-top: 0px;
   }
   
-  .img-box-margin:nth-child(4){
-    margin-top: 80px;
+  .img-box-margin:nth-child(3n){
+    margin-bottom: 80px;
   }
 
   .latest-text {
@@ -364,10 +352,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  .inner {
-    width: 97%;
-  }
-
   .contact {
     display: none;
   }
@@ -411,71 +395,17 @@
   .theme {
     font-size: 80px;
   }
-
-  .what-inner {
-    flex-flow: column;
-    padding-bottom: 25px;
-  }
-  
-  .img-iphone {
-    align-items: center;
-    margin: 0 auto;
-  }
-  
-  .main_what-box {
-    margin-top: 20px;
-    margin-left: 0;
-  }
   
   .main_what-text {
     width: 100%;
   }
 
-  .img-box-margin {
-    margin-left: 0px;
-    margin-top: 0px;
-  }
-  
-  .img-box-margin:nth-child(4){
-    margin-top: 80px;
-  }
-
   .latest-img-box img {
-    width: 100%;
     vertical-align: bottom;
   }
 
   .latest-img {
     flex-flow: column;
-  }
-
-  .latest-text {
-    flex-flow: column;
-  }
-
-  .latest-text-title {
-    width: 100%;
-  }
-
-  .latest-email {
-    margin: 40px auto 0px;
-  }
-
-  .latest-text {
-    margin-top: 80px;
-  }
-
-  .skills-flex {
-    flex-flow: column;
-  }
-
-  .skills-box {
-    margin-left: 0px;
-    margin-top: 88px;
-  }
-
-  .skills-box:first-child {
-    margin-top: 0%;
   }
 
   .sns-inner {
