@@ -317,8 +317,8 @@
     margin-top: 0px;
   }
   
-  .img-box-margin:nth-child(3n){
-    margin-bottom: 80px;
+  .img-box-margin:nth-child(3n+1){
+    margin-top: 80px;
   }
 
   .latest-text {
