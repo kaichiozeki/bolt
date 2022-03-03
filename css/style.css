@@ -321,6 +321,10 @@
     margin-top: 80px;
   }
 
+  .img-box-margin:first-child{
+    margin-top: 0;
+  }
+
   .latest-text {
     flex-flow: column;
   }
